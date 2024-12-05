@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tictactoe</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div style="display: flex; justify-content: center; border: 1px solid black; height: 100vh; align-items: center; ">
+
+
+        <div id="container" class="container" style="display: flex; flex-direction: column; align-items: center; padding: 10px; border-radius: 20px; ">
+            <h2 style="text-align: center;">Tic Tac Toe</h2>
+            <p id="winningMsg" style="color: red; font-size: 22px;"></p>
+
+            <div  id="game">
+                <button style="font-size: 50px;" class="btn"></button>
+                <button style="font-size: 50px;" class="btn"></button>
+                <button style="font-size: 50px;" class="btn"></button>
+                <button style="font-size: 50px;" class="btn"></button>
+                <button style="font-size: 50px;" class="btn"></button>
+                <button style="font-size: 50px;" class="btn"></button>
+                <button style="font-size: 50px;" class="btn"></button>
+                <button style="font-size: 50px;" class="btn"></button>
+                <button style="font-size: 50px;" class="btn"></button>
+            </div>
+
+
+            <!-- <button id="resetBtn" style="width: 50px; margin-top: 40px; padding: 5px;">Reset</button> -->
+           
+            <button id="resetBtn">
+                R E S E T
+                <div id="clip">
+                    <div id="leftTop" class="corner"></div>
+                    <div id="rightBottom" class="corner"></div>
+                    <div id="rightTop" class="corner"></div>
+                    <div id="leftBottom" class="corner"></div>
+                </div>
+                <span id="rightArrow" class="arrow"></span>
+                <span id="leftArrow" class="arrow"></span>
+            </button>
+
+        </div>
+    </div>
+    
+
+
+
+
+
+    <script src="./app.js"></script>
+</body>
+</html>
